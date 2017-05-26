@@ -17,22 +17,42 @@
       body {
         padding: 20px;
       }
+        
+        .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
       .text {
+        background: linear-gradient(to right, #1213ff , rgba(1, 1, 47, 0.92));
         border-style: solid;
         border-width: 1px;
         padding: 20px;
+        text-align: center;
+    margin: auto;
+    color: #f3f3f3;
+          font-size: 30px;
+              font-family: sans-serif;
       }
     </style>
 
   </head>
   <body>
 
-    <h1>Google Sheets Mad Libs</h1>
+    <h1 style="text-align:center;">Générateur d'invités à Denis Levesque</h1>
 
-    <p>This page pulls data from a google spreadsheet. The spreadsheet is <a href="https://docs.google.com/spreadsheets/d/1PCuj_nEiwfbd_5pm9aWLWjbRs2mP6v8C45BbWl6WTn0/edit?usp=sharing">here</a>.  The spreadsheet is filled from <a href="http://goo.gl/forms/YxvtgqagVX">this google form</a> but you can also just manually enter data into the spreadsheet.  This only works if you "publish the spreadsheet the web", an option under "File" in google drive.</p>
 
-    <p><button id = "generate">generate</button></p>
-
+    <p style="text-align:center;"><button id = "generate" ; button class = "button">GÉNÉRER</button></p>
+      
+<p style="text-align:center;"><img src="http://www.lametropole.com/assets/application/files/denisl%C3%A9vesque2.jpg" height="370" width="618"></p>
+      
     <p id="madlib"></p>
 
    
