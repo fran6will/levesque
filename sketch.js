@@ -21,8 +21,10 @@ function setup() {
 
         // I'm forming my own special syntax for how to substitute
         // this will help the regex and replace function
-        var txt = 'Le prochain invité de Denis Lévesque sera : "$Exclamation$ $Adjective$ $Adverb$ $Noun$." '
-           ;
+        var txt = '"$Exclamation$!" she said $Adverb$ as she jumped into her convertible $Noun$ '
+            + 'and drove off with her $Adjective$ $Noun$.';
+
+      
 
         // Tabletop expects some settings
         var settings = {
