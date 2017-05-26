@@ -9,7 +9,7 @@ function setup() {
     // This is the URL for my google sheet
     // The sheet is generated from this form: http://goo.gl/forms/0X67GZJTZJ
     // The sheet must set to File --> Published for the Web
-    var url = 'https://docs.google.com/spreadsheets/d/1PCuj_nEiwfbd_5pm9aWLWjbRs2mP6v8C45BbWl6WTn0/pubhtml';
+    var url = 'https://docs.google.com/spreadsheets/d/139BNKUVj9cKqIkY4UB63KyHJYqzzVxj87Q-6FiRLWBE/pubhtml';
 
 
     // Make the request
@@ -21,8 +21,8 @@ function setup() {
 
         // I'm forming my own special syntax for how to substitute
         // this will help the regex and replace function
-        var txt = '"$Exclamation$!" she said $Adverb$ as she jumped into her convertible $Noun$ '
-            + 'and drove off with her $Adjective$ $Noun$.';
+        var txt = 'Le prochain invité de Denis Lévesque sera : "$Exclamation$!" $Adverb$ $Noun$ '
+            + '$Adjective$ $Noun$.';
 
         // Tabletop expects some settings
         var settings = {
