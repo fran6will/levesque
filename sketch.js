@@ -52,6 +52,12 @@ function setup() {
 
                 // Now get the
                 var newtext = data[i][what];
+{
+
+                    // User input doesn't match our criteria
+                    // Call this function recursively to get a different replacement text
+                    return replacer(match, what);
+                }
 
         
 
