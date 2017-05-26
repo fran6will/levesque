@@ -52,14 +52,16 @@ function setup() {
 
                 // Now get the
                 var newtext = data[i][what];
-{
+
+         // Check for malicious Javascript code inserted via the spreadsheet
+                // Users are only allowed to input a mix of letters, digits, spaces and standard punctuation
+                if (!/^[a-zA-Z0-9,.!?éèàôïî ]*$/.test(newtext)) {
 
                     // User input doesn't match our criteria
                     // Call this function recursively to get a different replacement text
                     return replacer(match, what);
                 }
 
-        
 
                 if (what === 'Exclamation') {
                     newtext = newtext.replace(/^(.)/, capitalize);
