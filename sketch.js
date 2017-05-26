@@ -21,8 +21,8 @@ function setup() {
 
         // I'm forming my own special syntax for how to substitute
         // this will help the regex and replace function
-        var txt = '"$Exclamation$!" she said $Adverb$ as she jumped into her convertible $Noun$ '
-            + 'and drove off with her $Adjective$ $Noun$.';
+        var txt = '$Exclamation$ $Adjective$ $Adverb$ '
+            + '$Noun$.';
 
       
 
