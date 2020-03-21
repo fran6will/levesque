@@ -9,7 +9,7 @@ function setup() {
     // This is the URL for my google sheet
     // The sheet is generated from this form: http://goo.gl/forms/0X67GZJTZJ
     // The sheet must set to File --> Published for the Web
-    var url = 'https://docs.google.com/spreadsheets/d/139BNKUVj9cKqIkY4UB63KyHJYqzzVxj87Q-6FiRLWBE/pubhtml';
+    var url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRChXvfr-yNx3c1u_Rm1E-lQ9ts85W6e605NqSanLaCyTNnUHxFiGDSFEH5KOWWbPyyxOF5X6TAFhiE/pubhtml';
 
 
     // Make the request
